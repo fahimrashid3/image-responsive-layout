@@ -24,3 +24,36 @@ img{
     gap: 5px;
 
 }
+/* media quary for small devices */
+@media only screen and (max-width: 576px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .square-collage{
+        display: grid;
+        grid-template-columns:1fr;
+        gap: 5px;
+    
+    }
+    /* .colum{
+        display: flex;
+        width: 50%;
+    }
+       .square-collage-576{
+        display: flex;
+        width: 50%;
+        gap: 5px;
+    } */ 
+
+}
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+
+
+}
+
